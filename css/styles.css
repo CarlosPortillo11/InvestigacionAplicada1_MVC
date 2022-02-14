@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body, html{
+ height: 100%;
+ margin: 0px;
+}
+
+.contain{
+    background-image: url(../images/CalendarBG.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Redressed{
+    font-family: 'Redressed', cursive;
+}
+
+#BSubmit{
+    transition: background-color 0.2s 0.4s,border-color 0.2s 0.4s;
+}
+
+#BSubmit:hover{
+    background-color: transparent;
+    border-color: white;
+}
